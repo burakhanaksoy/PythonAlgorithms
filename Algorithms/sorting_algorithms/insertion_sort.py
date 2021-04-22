@@ -1,6 +1,6 @@
 # implement insertion sort
 
-array = [7, 5, 8, 2, 4, 6, 3]
+array = [7,9,1, 8, 2, 4, 6, 3]
 
 
 def solution(array):

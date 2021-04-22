@@ -3,7 +3,7 @@
 # Kabarcik icin bir index lazim
 # ikili comparison icin baska bir index lazim
 
-array = [2, 1, 6, 1, 3, -2,-4, 9, 7]
+array = [2, 1, 6, 1, 3, -2, -4, 9, 7]
 
 
 def solution(array):

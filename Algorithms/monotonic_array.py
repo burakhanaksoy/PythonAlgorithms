@@ -3,9 +3,7 @@
 # Return true if and only if the given array A is monotonic.
 
 def solution(x):
-    check1 = True
-    check2 = True
-
+    check1, check2 = True, True
     for j in range(len(x)-1):
         if x[j] >= x[j+1]:
             pass
@@ -22,7 +20,7 @@ def solution(x):
 A = [6, 5, 4, 4]
 B = [1, 1, 1, 3, 3, 4, 3, 2, 4, 2]
 C = [1, 1, 2, 3, 7]
-D = [1,2,3,4,4,6,5]
+D = [1, 2, 3, 4, 4, 6, 5]
 
 print(solution(A))
 print(solution(B))
