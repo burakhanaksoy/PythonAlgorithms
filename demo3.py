@@ -7,7 +7,7 @@ class Compiler:
         print("running...")
 
     @property
-    def info(selfa):
+    def info(self):
         print(f'{self.name} compiler')
 
 
