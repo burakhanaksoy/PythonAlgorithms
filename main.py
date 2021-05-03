@@ -54,3 +54,13 @@ class LinkedList:
             if cur_idx == index:
                 return cur_node.data
             cur_idx += 1
+
+linked_list = LinkedList()
+linked_list.append(1)
+linked_list.append(2)
+linked_list.append(3)
+linked_list.append(4)
+linked_list.append(5)
+linked_list.display()
+linked_list.remove(0)
+linked_list.display()
