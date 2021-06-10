@@ -15,4 +15,4 @@ class Solution:
 
 
 solution = Solution()
-print(solution.removeElement([0,1,2,2,3,0,4,2], 2))
+print(solution.removeElement([0, 1, 2, 2, 3, 0, 4, 2], 2))
